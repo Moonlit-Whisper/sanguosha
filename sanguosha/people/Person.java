@@ -275,9 +275,9 @@ public abstract class Person extends Attributes implements Serializable {
     }
 
     public final String help() {
-        return (isZuoCi ? "化身：游戏开始时，你随机获得两张武将牌作为\"化身\"牌，然后亮出其中一张，" +
-                "获得该\"化身\"牌的一个技能。回合开始时或结束后，你可以更改亮出的\"化身\"牌。\n" +
-                "新生：当你受到1点伤害后，你可以获得一张新的\"化身\"牌。\n\n" : "") + skillsDescription();
+        return (isZuoCi ? "化身：游戏开始时，你随机获得两张武将牌作为化身牌，然后亮出其中一张，" +
+                "获得该化身牌的一个技能。回合开始时或结束后，你可以更改亮出的化身牌。\n" +
+                "新生：当你受到1点伤害后，你可以获得一张新的化身牌。\n" : "") + skillsDescription();
     }
 
     public abstract String skillsDescription();
